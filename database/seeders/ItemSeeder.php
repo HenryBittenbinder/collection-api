@@ -49,13 +49,13 @@ class ItemSeeder extends Seeder
                 'name' => 'Miniatura Porsche 911 Carrera escala 1:18', 'category' => 'Miniaturas', 'brand' => 'Maisto',
                 'description' => 'Miniatura em escala 1:18 do Porsche 911 Carrera, com linhas esportivas bem definidas. Peça indicada para exposição em coleção automotiva.',
                 'condition' => 'excelente', 'estimated_value' => '380.00', 'asking_price' => '320.00',
-                'availability' => 'venda', 'photo' => 'https://images.unsplash.com/photo-1544976494-f02017dac3ca?auto=format&fit=crop&w=900&q=80',
+                'availability' => 'venda', 'photo' => 'https://images.unsplash.com/photo-1628251766190-0f7e111b6b1e?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
             ],
             [
                 'name' => 'Console 16 bits retrô com 2 controles', 'category' => 'Games', 'brand' => 'Nintendo',
                 'description' => 'Console clássico de 16 bits acompanhado de dois controles para partidas em dupla. Um conjunto retrô para quem aprecia videogames de gerações anteriores.',
                 'condition' => 'bom', 'estimated_value' => '750.00', 'asking_price' => '650.00',
-                'availability' => 'troca', 'photo' => 'https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=900&q=80',
+                'availability' => 'troca', 'photo' => 'https://media.istockphoto.com/id/1388886121/pt/foto/retro-games-console-on-a-wooden-table.jpg?s=612x612&w=is&k=20&c=8MkbeEx2xXdy7Mdw8c1huaMNR3SLsG2_rswHhuksLAE=',
             ],
             [
                 'name' => 'Moeda comemorativa de prata, edição limitada', 'category' => 'Moedas', 'brand' => 'Casa da Moeda',
@@ -67,7 +67,7 @@ class ItemSeeder extends Seeder
                 'name' => 'Disco de vinil de jazz, edição limitada numerada', 'category' => 'Discos', 'brand' => 'Blue Note',
                 'description' => 'Disco de jazz em edição limitada e numerada, voltado a quem aprecia o formato analógico. A capa e o vinil compõem uma peça especial para a coleção.',
                 'condition' => 'excelente', 'estimated_value' => '520.00', 'asking_price' => '480.00',
-                'availability' => 'venda', 'photo' => 'https://images.unsplash.com/photo-1598113571597-3a3d9c70b8c8?auto=format&fit=crop&w=900&q=80',
+                'availability' => 'venda', 'photo' => 'https://images.unsplash.com/photo-1598363943803-54a01af6fec1?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
             ],
             [
                 'name' => 'Relógio de bolso antigo', 'category' => 'Relógios', 'brand' => 'Elgin',
@@ -85,7 +85,7 @@ class ItemSeeder extends Seeder
                 'name' => 'Box Sherlock Holmes, edição comemorativa', 'category' => 'Livros', 'brand' => 'Arthur Conan Doyle',
                 'description' => 'Box comemorativo com obras clássicas de Sherlock Holmes, criadas por Arthur Conan Doyle. Uma edição para leitores e colecionadores de literatura policial.',
                 'condition' => 'novo', 'estimated_value' => '340.00', 'asking_price' => '290.00',
-                'availability' => 'venda', 'photo' => 'https://images.unsplash.com/photo-1473755504818-b72b6dfdc226?auto=format&fit=crop&w=900&q=80',
+                'availability' => 'venda', 'photo' => 'https://images.unsplash.com/photo-1595123336219-5eedd543bc4a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D',
             ],
         ];
 

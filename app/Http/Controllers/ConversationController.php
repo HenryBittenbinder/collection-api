@@ -6,15 +6,18 @@ use App\Http\Requests\StoreConversationRequest;
 use App\Http\Resources\ConversationResource;
 use App\Models\Conversation;
 use App\Models\Item;
+use App\Services\DemoConversations;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Http\Request;
 
 class ConversationController extends Controller
 {
-    public function index(Request $request): AnonymousResourceCollection
+    public function index(Request $request, DemoConversations $demoConversations): AnonymousResourceCollection
     {
-        $userId = $request->user()->id;
+        $user = $request->user();
+        $demoConversations->ensureFor($user);
+        $userId = $user->id;
         $conversations = Conversation::query()
             ->where(fn ($query) => $query->where('buyer_id', $userId)->orWhere('user_id', $userId))
             ->with(['user', 'buyer', 'item', 'latestMessage.sender'])
